@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <link rel="stylesheet" href="static/style.css">
+    <style>
+        /* Add your navbar styles here */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #navbar {
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        #navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        #content {
+            margin-top: 60px; /* Adjust the margin to make space for the navbar */
+        }
+
+        #background img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="#">Home</a>
+        <a href="/flowers">Do you</a>
+        <a href="/questionnaire">Contact</a>
+        <a href="/blos">Flo</a>
+    </div>
+
+    <div id="background">
+        <img src="static/background.jpg" alt="Romantic background">
+    </div>
+    <div id="content">
+        <p id="poem">{{ poem }}</p>
+        <form action="/reveal" method="POST">
+            <button id="reveal-button" type="submit">Unlock Your Heart</button>
+        </form>
+    </div>
+</body>
+
+</html>

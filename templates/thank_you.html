@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Thank You!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add other meta tags or links as needed -->
+</head>
+<body>
+    <div id="thank-you-container">
+        <h1>Thank You for Completing the Questionnaire!</h1>
+        <p>Here are your recorded answers:</p>
+        <ul>
+            {% for question_id, answer in recorded_answers.items() %}
+                <li>Question {{ question_id }}: {{ answer }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

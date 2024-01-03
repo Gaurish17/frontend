@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #333;
+    width: 50%;
+}
+
+#poem {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#reveal-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}

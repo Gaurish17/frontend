@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Image Gallery | Grid image Gallery | CSS Grid</title>
+    <!-- External CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='pic.css') }}">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+
+<body>
+    <div class="gallery">
+        <div><img src="{{ url_for('static', filename='images/gallery/1.jpg') }}" alt=""></div>
+        <div class="v-stretch"><img src="{{ url_for('static', filename='images/gallery/2.jpg') }}" alt=""></div>
+        <div class="h-stretch"><img src="{{ url_for('static', filename='images/gallery/3.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/4.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/5.jpg') }}" alt=""></div>
+        <div class="v-stretch"><img src="{{ url_for('static', filename='images/gallery/6.jpg') }}" alt=""></div>
+        <div class="big-stretch"><img src="{{ url_for('static', filename='images/gallery/7.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/8.jpg') }}" alt=""></div>
+        <div class="h-stretch"><img src="{{ url_for('static', filename='images/gallery/9.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/10.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/11.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/12.jpg') }}" alt=""></div>
+        <div class="v-stretch"><img src="{{ url_for('static', filename='images/gallery/13.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/14.jpg') }}" alt=""></div>
+        <div class="big-stretch"><img src="{{ url_for('static', filename='images/gallery/15.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/16.jpg') }}" alt=""></div>
+        <div class="h-stretch"><img src="{{ url_for('static', filename='images/gallery/17.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/18.jpg') }}" alt=""></div>
+        <div class="big-stretch"><img src="{{ url_for('static', filename='images/gallery/19.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/20.jpg') }}" alt=""></div>
+        <div><img src="{{ url_for('static', filename='images/gallery/21.jpg') }}" alt=""></div>
+    </div>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- Your custom JavaScript -->
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+
+</html>
