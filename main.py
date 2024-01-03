@@ -7,11 +7,13 @@ journey = ""  # Placeholder for romantic journey
 
 # Sample questions and options
 questions = [
-    {"id": 1, "question": "What is my favorite hobby ?", "options": ["dancing", "singing", "troubling you", "sleeping"]},
-    {"id": 2, "question": "What is your favourite part of our relationship? And least favourite?", "options": ["texting", "Calling", "doing nothing","other"]},
+    {"id": 1 ,"question": "What is my favorite hobby ?", "options": ["dancing", "singing", "troubling you", "sleeping"]},
+    {"id": 2 ,"question": "What is your favourite part of our relationship? And least favourite?", "options": ["texting", "Calling", "doing nothing","other"]},
     {"id": 3 ,"question": "What’s an embarrassing thing you’ve done and never told anyone about?","options" : ["tell"]},
-    {"id": 4 ,"question": "choose","options" : ["Marrying in 5star hotel with me","Long Drive with me","World Tour with me","Video calling shreya","spending rest your life with mom - dad"]},
-    {"id": 5 ,"question": "What’s your thought on your boyfriend (thats me Gaurish)","options" : ["He is not my bf he is my girlfriend coz he is more romantic","I am thinking of dating him","He is the only person who knows to handle me","I am gonna propose him after completing degree from vellore"]}
+    {"id": 4 ,"question": "choose","options" : ["Dating me !!!!!","World Tour with me","Video calling shreya","spending rest your life with mom - dad"]},
+    {"id": 5 ,"question": "What if you become Gaurish and he becomes Darshi , how you are gonna treat her  ? ","options" : ["Tell","Ofcourse he will be hottest darshika ever "]},
+    {"id": 6 ,"question": "What is best thing you love and i can gift you right noww ?", "options": ["Chocolates", "Cake", "Guess"]},
+    {"id": 7 ,"question": "since you guessed wrong here is your punishment !! hehe","options": ["Make video of me while you hold my hand "]}
 ]
 
 current_question_index = 0
